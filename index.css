@@ -97,3 +97,9 @@ line-height: 19px;
     font-weight: 600;
 
 }
+.box{
+    width: 120px;
+    height: 120px;
+    border: 1px solid;
+    float: left;
+}
