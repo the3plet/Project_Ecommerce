@@ -1,6 +1,17 @@
 .box{
-    width: 120px;
-    height: 120px;
-    border: 1px solid;
-    float: left;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #777;
+    border-radius: 0.25rem;
+    padding-bottom: 8rem;
+
+}
+.box-footer{
+    margin-top: 0rem;
+    font-size: 0.8rem;
+    
+}
+.box-grid{
+    display: grid ;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
 }
