@@ -155,3 +155,156 @@ article {
     border: 1px solid;
     float: left;
 }
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 100% !important;
+        padding: 1em 0;
+    }
+    
+    .nav-cont{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 2em;
+    }
+    
+    .nav-logo {
+        font-size: 1.5em;
+    }
+    
+    .cart-cont{
+        position: relative;
+    }
+    
+    .cart-icon {
+        font-size: 1.2em;
+    }
+    
+    .cart-count {
+        position: absolute;
+        transform: translate(0.6em,-0.4em);
+        top: 0;
+        right: 0;
+        background-color: red;
+        border-radius:50% ;
+        padding:3px;
+        font-weight: bold;
+        font-size: 0.6em;
+        color: #dcdcdc;
+    }
+    
+    header {
+        width: 100% !important;
+        padding: 0 1em;
+    }
+    
+    .poster {
+        width: 100%;
+        
+        background-color: #dcdcdc;
+        margin-top: 0;
+        padding: 1em 0;
+        margin: 0 auto;
+        border-radius: 25px;
+            position: relative;
+    
+    }
+    
+    .product_title {
+        position: relative;
+    }
+    
+    .device_name {
+        position: inherit;
+        margin-top: 5%;
+        margin-left: 2%;
+        font-size: 28px;
+        font-weight: 200;
+    }
+    
+    .desc_details {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    article {
+        z-index: 4;
+        gap: 3%;
+        width: 27%;
+        display: grid;
+        align-items: center;
+    
+        margin-right: 3%;
+        margin-top: 0.5%;
+    }
+    
+    #click_to_buy {
+        margin-top: 1%;
+        margin-left: 3%;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        width: 75%;
+        border-color: transparent;
+    
+        font-size: 1em;
+        padding: 0.7%;
+    }
+    
+    .product_pic {
+        position: absolute;
+       top: -1em;
+       right: 0;
+        width: 45%;
+        margin-right: 2em;
+        animation: bounce infinite 4s;
+        z-index: 2;
+    }
+    
+    @keyframes bounce {
+    0%,100%{
+        transform: translateY(0);
+        transition-timing-function: ease-in;
+    }
+    50%{
+        transform: translateY(-15px);
+        transition-timing-function: ease-out;
+    }
+    }
+    
+    .device_variant {
+        color: white;
+        margin-left: 2%;
+        font-weight: 700;
+        font-size: 5 em;
+            overflow: hidden;
+    
+    }
+    
+    .wireless {
+        margin-left: 2%;
+        margin-bottom: -10px;
+        font-size: 75px;
+    }
+    
+    .description {
+        font-weight: 5;
+        font-style: normal;
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .descript {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .box {
+        width: 120px;
+        height: 120px;
+        border: 1px solid;
+        float: left;
+    }
+  }
