@@ -1,0 +1,19 @@
+{
+  "name": "project_ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce shopping",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the3plet/Project_Ecommerce.git"
+  },
+  "author": "glitched-society",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the3plet/Project_Ecommerce/issues"
+  },
+  "homepage": "https://github.com/the3plet/Project_Ecommerce#readme"
+}
