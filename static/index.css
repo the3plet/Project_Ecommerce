@@ -145,10 +145,12 @@ article {
 
 .device_variant {
   color: white;
-  margin-left: 2%;
+  margin-left: 0%;
   font-weight: 700;
-  font-size: 160px;
+  font-size: 100px;
   overflow: hidden;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .wireless {
@@ -222,7 +224,7 @@ article {
 
   .poster {
     width: 100%;
-
+   
     background-color: #dcdcdc;
     margin-top: 0;
     padding: 1em 0;
@@ -295,13 +297,7 @@ article {
     }
   }
 
-  .device_variant {
-    color: white;
-    margin-left: 2%;
-    font-weight: 700;
-    font-size: 5 em;
-    overflow: hidden;
-  }
+  
 
   .wireless {
     margin-left: 2%;
