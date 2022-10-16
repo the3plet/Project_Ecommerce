@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+/* variables */
+:root {
+  --bp-sm: 576px;
+  --bp-md: 768px;
+  --bp-lg: 992px;
+  --bp-xl: 1200px;
+  --bp-xxl: 1400px;
+}
+
 /* utility classes */
 .text-center {
   text-align: center;
@@ -168,6 +177,7 @@ article {
   border: 1px solid;
   float: left;
 }
+
 @media only screen and (max-width: 600px) {
   nav {
     width: 100% !important;
@@ -340,8 +350,9 @@ main {
 .prod-list {
   display: grid;
   gap: 1em;
-  grid-template-rows: repeat(12, minmax(5rem, 10rem));
-  grid-template-columns: repeat(6, minmax(5rem, 10rem));
+  max-width: var(--bp-xl);
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  margin: 1rem auto;
 }
 
 .prod-card {
