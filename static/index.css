@@ -362,3 +362,13 @@ main {
   padding: 1rem;
   height: 15rem;
 }
+
+footer {
+  width: 100% !important;
+}
+
+.footer-copyright,
+.footer-links {
+  max-width: var(--bp-lg);
+  margin: 0.3rem auto;
+}
