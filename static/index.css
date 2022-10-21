@@ -180,6 +180,66 @@ article {
   float: left;
 }
 
+.footer_poster {
+
+  background-color: rgb(252, 10, 10);
+  padding: 1rem;
+  height: 25rem;
+  width: 70%;
+  margin-left: 5%;
+  position: relative;
+  border-radius: 12px;
+  color: white;
+  z-index: 1;
+  box-shadow: -2px 5px 8px 3px rgb(110, 108, 108);
+
+  margin-bottom: 2rem;
+  margin-left: 12%;
+
+}
+
+.footer_pic {
+
+  position: absolute;
+  top: 0.8rem;
+  right: 0;
+  width: 50%;
+  margin-right: -1rem;
+  animation: bounce infinite 4s;
+  z-index: 2;
+
+
+}
+
+h4 {
+
+  font-size: 0.8rem;
+
+}
+
+.descpt {
+  font-size: 1rem;
+}
+
+.acronouns {
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+
+}
+
+#click_to_shop {
+  width: 50%;
+  margin-top: 0.90rem;
+  font-size: 1.1rem;
+  height: 1.8rem;
+  border-radius: 20px;
+  border: red solid;
+  background-color: white;
+  color: red;
+}
 @media only screen and (max-width: 600px) {
   nav {
     width: 100% !important;
@@ -305,9 +365,9 @@ article {
 
   .device_variant {
     color: white;
-    margin-left: 2%;
+    margin-left: -2%;
     font-weight: 700;
-    font-size: 5 em;
+    font-size: 4.5 em;
     overflow: hidden;
   }
 
@@ -318,7 +378,7 @@ article {
   }
 
   .description {
-    font-weight: 5;
+    font-weight: 100;
     font-style: normal;
     font-family: sans-serif;
     font-size: 13px;
